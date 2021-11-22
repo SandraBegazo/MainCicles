@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="360dp"
+        android:layout_height="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.714">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_oncreate"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Create"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_oncreate_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_onstart"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Start"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_onstart_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_onrestart"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Restart"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_onrestart_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_onresume"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Resume"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_onresume_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_onpause"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Pause"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_onpause_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_onstop"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Stop"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_onstop_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_ondestroy"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="On Destroy"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_ondestroy_count"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="252dp"
+        android:layout_height="31dp"
+        android:text="Contador de Ciclos"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+</androidx.constraintlayout.widget.ConstraintLayout>
